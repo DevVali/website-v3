@@ -2,6 +2,8 @@
 <?php
 $name = "Vali";
 $username = "ejvali";
+$desc = "This is my personal website and my corner on the internet. I'm mainly a student and a free-time developer.";
+$section = "Home";
 $prns = "they/it";
 $keywords = "art & photo";
 $color = "#68ADAD";
@@ -10,55 +12,27 @@ $discord_tag = "vidk#0024";
 ?>
 
 <html lang="en">
-<head><title>Home - <?php echo "@$username" ?></title>
-<!-- meta tags -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta property="og:type" content="website" />
-<meta name="theme-color" content="<?php echo $color ?>" />
-<meta property="og:site_name" content="Official Site" />
-<meta property="og:title" content="Vali (@ejvali)" />
-<meta property="og:description" content="This is my personal website and my corner on the internet. I'm mainly a student and a free-time developer." />
-<meta property="og:url" content="" />
-<meta property="og:image:type" content="image/png" />
-<meta property="twitter:card" content="summary_large_image" />
-<meta name="description" content="This is my personal website and my corner on the internet. I'm mainly a student and a free-time developer." />
-<meta name="keywords" content="Vali, TestTool, Naturee Channel, Boostyle, Bytes Studios, Discord, TikTok, Instagram, Twitter, HTML, CSS, JS, ejvali, art, artist, photo, photographer, food, nature, programmer, developer, code, manager, creator, social media " />
-<meta name="author" content="Vali (@ejvali)" />
-<meta name="copyright" content="© 2022 Vali (@ejvali)" />
 
-<!-- import styles and scripts -->
-<link rel="stylesheet" href="/boostyle/1.0.8/css/boostyle.css">
-<link rel="stylesheet" href="/bootstrap/5.2.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="/w3css/4/css/w3.css">
-<script src="https://kit.fontawesome.com/ede9707ca2.js" crossorigin="anonymous"></script>
-
-<!-- favicon -->
-<link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/889423777123938315/1008112502778892368/favicon-1.png">
-
-<!-- reCAPTCHA -->
-<script src="https://www.google.com/recaptcha/api.js"></script>
-
-<!-- noscript -->
-<noscript><style>#pageselect{display:none;}#noscript-warn{list-style-type:none;font-family:Montserrat;font-size:18px;color:white;background-color:#68ADAD;overflow:hidden;margin:0;padding:14px 16px;position:fixed;top:0;width:100%}</style><div id="noscript-warn">Please enable JavaScript to ensure you get the best experience on our website.</div></noscript>
+<?php require "/home/runner/portfolio/includeto/pagehead.php" ?>
 
 </head>
 <body><div id="pageselect">
   <ul class="nav-bar">
-    <li class="nav-item-l"><a class="nav-item-l" href="#"><img src="https://cdn.discordapp.com/attachments/889423777123938315/1008112502778892368/favicon-1.png" style="height:1em;width:auto;font-size:30px">&nbsp;&nbsp;@ejvali</a></li>
+    <li class="nav-item-l"><a class="nav-item-l" href="https://portfolio.devvali.repl.co"><img src="https://cdn.discordapp.com/attachments/889423777123938315/1008112502778892368/favicon-1.png" style="height:1em;width:auto;font-size:30px" alt="navimage">&nbsp;&nbsp;@ejvali</a></li>
     <li class="nav-item-r"><a class="nav-item-r nav-hover" id="btn-contact" onclick="document.querySelector('.nav-active').classList.remove('nav-active');document.querySelector('#btn-contact').classList.add('nav-active')" href="#contact">Contact</a></li>
     <li class="nav-item-r"><a class="nav-item-r nav-hover" id="btn-projects" onclick="document.querySelector('.nav-active').classList.remove('nav-active');document.querySelector('#btn-projects').classList.add('nav-active')" href="#projects">Projects</a></li>
     <li class="nav-item-r"><a class="nav-item-r nav-hover" id="btn-gallery" onclick="document.querySelector('.nav-active').classList.remove('nav-active');document.querySelector('#btn-gallery').classList.add('nav-active')" href="#gallery">Gallery</a></li>
     <li class="nav-item-r"><a class="nav-item-r nav-hover" id="btn-bio" onclick="document.querySelector('.nav-active').classList.remove('nav-active');document.querySelector('#btn-bio').classList.add('nav-active')" href="#bio">Bio</a></li>
     <li class="nav-item-r"><a class="nav-item-r nav-hover nav-active" id="btn-home" onclick="document.querySelector('.nav-active').classList.remove('nav-active');document.querySelector('#btn-home').classList.add('nav-active')" href="#home">Home</a></li>
   </ul>
-  <style>html{text-align:center;scroll-behavior:smooth;margin:0;}.cookie{list-style-type:none;font-family:Montserrat;font-size:18px;color:white;background-color:#68ADAD;overflow:hidden;margin:0;padding:0;position:fixed;bottom:0;width:100%}footer{list-style-type:none;font-family:Montserrat;font-size:18px;color:white;background-color:#68ADAD;overflow:hidden;margin:0;padding:0;}@media screen and (max-width: 600px){.nav-bar {display:none}}</style>
+  <style>html{text-align:center;scroll-behavior:smooth;margin:0;}.cookie{list-style-type:none;font-family:Montserrat;font-size:18px;color:white;background-color:#68ADAD;overflow:hidden;margin:0;padding:0;position:sticky;bottom:0;width:100%;}.codearea{padding: 5px;margin-bottom: 10px;color: #aaa;box-sizing: border-box;border: 1px solid #8b8b8b;border-radius: 5px;background-color: #424242;font-size: 16px;resize: none;}footer{list-style-type:none;font-family:Montserrat;font-size:18px;color:white;background-color:#68ADAD;overflow:hidden;margin:0;padding:0;}@media screen and (max-width: 600px){.nav-bar {display:none}}</style>
   
   <br><br>
-  <a href="https://linkin.bio/ejvali"><img src="https://cdn.discordapp.com/attachments/889423777123938315/1008112503429025802/favicon-3.png"></a><h3><?php echo "@$username" ?></h3>
+  <a href="https://linkin.bio/ejvali"><img src="https://cdn.discordapp.com/attachments/889423777123938315/1008112503429025802/favicon-3.png" alt="logo"></a><h3><?php echo "@$username" ?></h3>
   <a href="https://www.tiktok.com/<?php echo "@$username" ?>" style="font-size:30px"><i class="fa-brands fa-tiktok"></i></a>&nbsp;&nbsp;&nbsp;
   <a href="https://www.instagram.com/<?php echo $username ?>" style="font-size:30px"><i class="fa-brands fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;
   <a href="https://www.twitter.com/<?php echo $username ?>" style="font-size:30px"><i class="fa-brands fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;
-  <br><span style="border-bottom:3px solid red">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  <br><hr style="border:3px solid <?php echo $color ?>">
   
   <!-- Home -->
   <h1 id="home">I'm <?php echo $name ?>, <font color="<?php echo $color ?>" size="6px"><?php echo $prns ?>, <?php echo $keywords ?></font></h1>
@@ -71,7 +45,7 @@ $discord_tag = "vidk#0024";
   <a href="#" class="btn btn-light btn-lg">Social Media</a><br>&nbsp;
 
   <!-- Gallery -->
-  <h2 id="gallery" style="color:red">Gallery</h3><p>A little gallery, of my favorite photos.<br><font color="#aaa">6 of 6 shown</font></p>
+  <h2 id="gallery" style="color:red">Gallery</h2><p>A little gallery, of my favorite photos.<br><font color="#aaa">6 of 6 shown</font></p>
   <img style="width:326px" src="https://cdn.discordapp.com/attachments/889423777123938315/1008625290639061002/1660545356699.jpg">
   <img style="width:326px" src="https://cdn.discordapp.com/attachments/889423777123938315/1008625290135748639/1660545356683.jpg">
   <img style="width:326px" src="https://cdn.discordapp.com/attachments/889423777123938315/1008625289808580668/1660545356666.jpg">
@@ -80,10 +54,8 @@ $discord_tag = "vidk#0024";
   <img style="width:326px" src="https://cdn.discordapp.com/attachments/889423777123938315/1008625289171042345/1660545356635.jpg">
   <img style="width:326px" src="https://cdn.discordapp.com/attachments/889423777123938315/1008625288877453382/1660545356619.jpg">
   <br><br>
-  <p>Watch my mini-film via YouTube:</p>
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/h5_9d7B2td4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-  <!-- Projects -->
+  <!-- Projects --> 
   <h2 id="projects" style="color:red">Projects</h2><p>Check out my developer and other based projects I made and contributed to.<br>Click the project icon to hop in to the project.<br><font color="#aaa">6 of 6 shown</font></p>
   <div><a href="https://instagram.com/testtool_apps" target="_blank"><img src="https://cdn.discordapp.com/attachments/889423777123938315/1008781504752656434/testtool_apps.png" style="width:121px"></a><h3>TestTool<br><font color="#aaa" size="4px">Entertainment & Recreation</font></h3>
   <span>🥇 #1 world exams app, powerful, easy & online. In demo.</span><br><br><br></div>
@@ -95,8 +67,6 @@ $discord_tag = "vidk#0024";
   <span>Boostyle is a collection of CSS styles. No limitations, open source for everyone. Style webpages.</span><br><br><br></div>
   <div><a href="https://dsc.gg/bytesstudios" target="_blank"><img src="https://cdn.discordapp.com/attachments/889423777123938315/1008781502361911397/bytes_studios.png" style="width:121px"></a><h3>Bytes Studios<br><font color="#aaa" size="4px">Entertainment & Recreation</font></h3>
   <span>Bytes Studios is a group that creates different types of projects such as websites, bots, tools and more.</span><br><br><br></div>
-  <div><a href="#publishedsoon"><img src="https://cdn.discordapp.com/attachments/889423777123938315/1008976750761480212/code-snippets.png" style="width:121px"></a><h3>Code snippets<br><font color="#aaa" size="4px">Blog</font></h3>
-  <span>Code snippets is a place with all my open source codes I made. Published soon.</span><br><br><br></div>
 
   <!-- Contact -->
   <form class="w3-container w3-card-4" method="post" action="https://getform.io/f/0092bfe5-16f1-4c7c-a90b-910be9d525a5">
@@ -112,22 +82,11 @@ $discord_tag = "vidk#0024";
     <textarea class="w3-input w3-border w3-animate-input" style="width:30%" name="Message" type="text" minlength="20" maxlength="2000" required></textarea></p>
     <div class="g-recaptcha" data-sitekey="6LfHvIIhAAAAAB69NZWQWWZM988Uaeu0_4yxbvbt"></div>
     <div id="form-alert" style="color:red;font-weight:bold;float:left">&nbsp;</div><br><br>
-    <p style="float:left">Replies will be sent from <i>somethingnew.kira@gmail.com.</i> <a href="javascript:alert('All stored data is kept on protected servers. Please keep in mind that even with these protections, no data can ever be 100% secure. All efforts are taken to keep your data secure and private, but its absolute security cannot be guaranteed.')">Privacy info</a></p><br><br>
-    <button class="w3-btn w3-blue" style="float:left" type="submit" id="submit">Send</button></p>
-    <br><br><br>
+    <button class="w3-btn w3-blue" style="float:left" type="submit" id="submit">Send</button>
+    <br><br>
   </form>
 
-  <footer><br>
-    <a href="https://www.tiktok.com/<?php echo "@$username" ?>"><i class="fa-brands fa-tiktok"></i></a>&nbsp;&nbsp;&nbsp;
-    <a href="https://www.instagram.com/<?php echo $username ?>"><i class="fa-brands fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;
-    <a href="https://www.twitter.com/<?php echo $username ?>"><i class="fa-brands fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;
-    <p>This site was made by hand with the use of <a href="https://github.com/DevVali/boostyle">Boostyle</a>, <a href="https://getbootstrap.com">Bootstrap</a> and <a href="https://www.w3schools.com/w3css/">W3.css</a>. <a href="#publishedsoon">Get the source code.</a></p>
-    <p>© 2022 Vali (@ejvali)</p>
-  </footer>
-  
-  <?php if (isset($_COOKIE["cookieconsent_status"]) == false) { ?>
-    <div class="cookie"><span style="float:left;padding:14px 16px">This website uses cookies to ensure you get the best experience on our website. <a href="https://www.google.com/policies/technologies/cookies/" target="_blank">Learn more</a></span><button onclick="onCookieconsent();" class="btn btn-primary" style="float:right;padding:14px 16px;">Got it!</button></div>
-    <?php } ?>
+<?php require "/home/runner/portfolio/includeto/pagefooter.php" ?>
 
 <!-- script -->
 <script>
@@ -144,7 +103,7 @@ $discord_tag = "vidk#0024";
     dtag.classList.add("btn-success");
     dtag.textContent = "Copied!";
     
-    setTimeout(afterDtag, 2000);
+    setTimeout(afterDtag, 3000);
     function afterDtag(){
       dtag.classList.add("btn-primary");
       dtag.classList.remove("btn-success");
