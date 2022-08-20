@@ -29,7 +29,7 @@ $discord_tag = "vidk#0024";
 </head>
 <body><div id="pageselect">
   <ul class="nav-bar">
-    <li class="nav-item-l"><a class="nav-item-l" href="https://portfolio.devvali.repl.co"><img src="https://cdn.discordapp.com/attachments/889423777123938315/1008112502778892368/favicon-1.png" style="height:1em;width:auto;font-size:30px">&nbsp;&nbsp;@ejvali</a></li>
+    <li class="nav-item-l"><a class="nav-item-l" href="https://ejvali.eu"><img src="https://cdn.discordapp.com/attachments/889423777123938315/1008112502778892368/favicon-1.png" style="height:1em;width:auto;font-size:30px" alt="navimage">&nbsp;&nbsp;@ejvali</a></li>
   </ul>
   <style>html{text-align:center;scroll-behavior:smooth;margin:0;}.cookie{list-style-type:none;font-family:Montserrat;font-size:18px;color:white;background-color:#68ADAD;overflow:hidden;margin:0;padding:0;position:sticky;bottom:0;width:100%;}.codearea{padding: 5px;margin-bottom: 10px;color: #aaa;box-sizing: border-box;border: 1px solid #8b8b8b;border-radius: 5px;background-color: #424242;font-size: 16px;resize: none;}footer{list-style-type:none;font-family:Montserrat;font-size:18px;color:white;background-color:#68ADAD;overflow:hidden;margin:0;padding:0;}@media screen and (max-width: 600px){.nav-bar {display:none}}</style>
 
