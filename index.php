@@ -86,6 +86,7 @@ $discord_tag = "vidk#0024";
     <br><br>
   </form>
 
+
 <?php require "/home/runner/ejvali-eu/includeto/pagefooter.php" ?>
 
 <!-- script -->
