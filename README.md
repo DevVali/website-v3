@@ -1,7 +1,7 @@
 # [ejvali.eu](https://ejvali.eu)
 Get the source code of ejvali.eu
 
-[![Stars](https://img.shields.io/github/stars/DevVali/devvali.github.io)](https://github.com/DevVali/devvali.github.io/stargazers)
+[![Stars](https://img.shields.io/github/stars/DevVali/ejvali-eu)](https://github.com/DevVali/ejvali-eu/stargazers)
 [![Discord](https://discordapp.com/api/guilds/886548261748502538/widget.png)](https://discord.gg/dsTTyA7MuQ) 
 
 ## Contact
