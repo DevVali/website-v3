@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <?php
 $name = "Vali";
 $username = "ejvali";
@@ -10,6 +9,7 @@ $color = "#68ADAD";
 $discord = "https://dsc.gg/ejvali";
 $discord_tag = "vidk#0024";
 ?>
+<!DOCTYPE html>
 
 <html lang="en">
 

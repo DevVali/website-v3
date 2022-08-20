@@ -1,5 +1,15 @@
-<!DOCTYPE html>
 <?php
+$id = "";
+if (isset($_GET["id"])){
+  if ($_GET["id"] == 1 || $_GET["id"] == 2 || $_GET["id"] == 3 || $_GET["id"] == 4 || $_GET["id"] == 5 || $_GET["id"] == 6 || $_GET["id"] == 7 || $_GET["id"] == 8 || $_GET["id"] == 9 || $_GET["id"] == 10 || $_GET["id"] == 11 || $_GET["id"] == 12){
+    $id = $_GET["id"];
+  } else {
+    header("Location: /index.php");
+  }
+} else {
+  header("Location: /index.php");
+}
+
 $name = "Vali";
 $username = "ejvali";
 $desc = "A library of free codes. Copy/Paste now.";
@@ -9,18 +19,8 @@ $keywords = "art & photo";
 $color = "#68ADAD";
 $discord = "https://dsc.gg/ejvali";
 $discord_tag = "vidk#0024";
-
-$id = "";
-if (isset($_GET["id"])){
-    if ($_GET["id"] == 1 || $_GET["id"] == 2 || $_GET["id"] == 3 || $_GET["id"] == 4 || $_GET["id"] == 5 || $_GET["id"] == 6 || $_GET["id"] == 7 || $_GET["id"] == 8 || $_GET["id"] == 9 || $_GET["id"] == 10 || $_GET["id"] == 11 || $_GET["id"] == 12){
-        $id = $_GET["id"];
-    } else {
-        header("Location: /index.php");
-    }
-} else {
-    header("Location: /index.php");
-}
 ?>
+<!DOCTYPE html>
 
 <html lang="en">
 
