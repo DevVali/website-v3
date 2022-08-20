@@ -2,14 +2,14 @@ $c[THE MOST POWERFUL STAFF STATUS SYSTEM | BDFD]
 $c[Language: BDscript 2; YouTube: https://youtu.be/doH2l73GK4E]
 $c[
 ADD THE OTHER COMMANDS, REQUIRED:
-- https://portfolio.devvali.repl.co/code.php?id=5 
-- https://portfolio.devvali.repl.co/code.php?id=6 
-- https://portfolio.devvali.repl.co/code.php?id=7 
-- https://portfolio.devvali.repl.co/code.php?id=8 
-- https://portfolio.devvali.repl.co/code.php?id=9 (this)
-- https://portfolio.devvali.repl.co/code.php?id=10
-- https://portfolio.devvali.repl.co/code.php?id=11
-- https://portfolio.devvali.repl.co/code.php?id=12
+- https://ejvali.eu/code.php?id=5 
+- https://ejvali.eu/code.php?id=6 
+- https://ejvali.eu/code.php?id=7 
+- https://ejvali.eu/code.php?id=8 
+- https://ejvali.eu/code.php?id=9 (this)
+- https://ejvali.eu/code.php?id=10
+- https://ejvali.eu/code.php?id=11
+- https://ejvali.eu/code.php?id=12
 ]
 $c[© 2022 Vali (@ejvali)]
 

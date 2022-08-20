@@ -4,9 +4,9 @@
 <meta property="og:type" content="website" />
 <meta name="theme-color" content="<?php echo $color ?>" />
 <meta property="og:site_name" content="Official Site" />
-<meta property="og:title" content="<?php echo $name ?> (@<?php echo $username ?>)" />
+<meta property="og:title" content="<?php echo $section ?> - <?php echo $name ?> (@<?php echo $username ?>)" />
 <meta property="og:description" content="<?php echo $desc ?>" />
-<meta property="og:url" content="" />
+<meta property="og:url" content="https://ejvali.eu" />
 <meta property="og:image:type" content="image/png" />
 <meta property="twitter:card" content="summary_large_image" />
 <meta name="description" content="<?php echo $desc ?>" />
