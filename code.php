@@ -24,7 +24,7 @@ if (isset($_GET["id"])){
 
 <html lang="en">
 
-<?php require "/home/runner/portfolio/includeto/ejvali-eu.php" ?>
+<?php require "/home/runner/ejvali-eu/includeto/pagehead.php" ?>
 
 </head>
 <body><div id="pageselect">
@@ -37,12 +37,12 @@ if (isset($_GET["id"])){
   <p><a href="#copybtn">Copy/Paste</a> the code, follow the intructions (usually written in the comments) and enjoy.<br>Having issues? Let us know on our Discord.</p><a href="https://dsc-gg/dev-world" target="_blank"><button class="btn btn-lg btn-primary">Discord support</button></a><br><br>
   
   <pre><textarea cols="80" rows="30" class="codearea" readonly>
-<?php require "/home/runner/portfolio/codefiles/$id.php" ?>
+<?php require "/home/runner/ejvali-eu/codefiles/$id.php" ?>
   </textarea></pre>
   <button id="copybtn" class="btn btn-lg btn-primary">Copy code</button>
   <br><br>
 
-<?php require "/home/runner/portfolio/includeto/ejvali-eu.php" ?>
+<?php require "/home/runner/ejvali-eu/includeto/pagefooter.php" ?>
 
 <!-- script -->
 <script>

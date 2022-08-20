@@ -13,12 +13,12 @@ $discord_tag = "vidk#0024";
 
 <html lang="en">
 
-<?php require "/home/runner/portfolio/ejvali-eu/pagehead.php" ?>
+<?php require "/home/runner/ejvali-eu/includeto/pagehead.php" ?>
 
 </head>
 <body><div id="pageselect">
   <ul class="nav-bar">
-    <li class="nav-item-l"><a class="nav-item-l" href="https://portfolio.devvali.repl.co"><img src="https://cdn.discordapp.com/attachments/889423777123938315/1008112502778892368/favicon-1.png" style="height:1em;width:auto;font-size:30px" alt="navimage">&nbsp;&nbsp;@ejvali</a></li>
+    <li class="nav-item-l"><a class="nav-item-l" href="https://ejvali.eu"><img src="https://cdn.discordapp.com/attachments/889423777123938315/1008112502778892368/favicon-1.png" style="height:1em;width:auto;font-size:30px" alt="navimage">&nbsp;&nbsp;@ejvali</a></li>
     <li class="nav-item-r"><a class="nav-item-r nav-hover" id="btn-contact" onclick="document.querySelector('.nav-active').classList.remove('nav-active');document.querySelector('#btn-contact').classList.add('nav-active')" href="#contact">Contact</a></li>
     <li class="nav-item-r"><a class="nav-item-r nav-hover" id="btn-projects" onclick="document.querySelector('.nav-active').classList.remove('nav-active');document.querySelector('#btn-projects').classList.add('nav-active')" href="#projects">Projects</a></li>
     <li class="nav-item-r"><a class="nav-item-r nav-hover" id="btn-gallery" onclick="document.querySelector('.nav-active').classList.remove('nav-active');document.querySelector('#btn-gallery').classList.add('nav-active')" href="#gallery">Gallery</a></li>
@@ -86,7 +86,7 @@ $discord_tag = "vidk#0024";
     <br><br>
   </form>
 
-<?php require "/home/runner/portfolio/ejvali-eu/pagefooter.php" ?>
+<?php require "/home/runner/ejvali-eu/includeto/pagefooter.php" ?>
 
 <!-- script -->
 <script>
