@@ -66,7 +66,7 @@ $discord_tag = "vidk#0024";
   <div><a href="https://github.com/DevVali/Boostyle" target="_blank"><img src="https://cdn.discordapp.com/attachments/889423777123938315/1009892015976226826/unknown.png" style="width:121px"></a><h3>Boostyle<br><font color="#aaa" size="4px">Entertainment & Recreation</font></h3>
   <span>Boostyle is a collection of CSS styles. No limitations, open source for everyone. Style webpages.</span><br><br><br></div>
   <div><a href="https://dsc.gg/bytesstudios" target="_blank"><img src="https://cdn.discordapp.com/attachments/889423777123938315/1009892015581974589/unknown.png" style="width:121px"></a><h3>Bytes Studios<br><font color="#aaa" size="4px">Entertainment & Recreation</font></h3>
-  <span>Bytes Studios is a group that creates different types of projects such as websites, bots, tools and more.</span><br><br><br></div>
+  <span>Bytes Community is all about collaborating, sharing, conversation, and more!<br>We have a wide variety of topics however we're always listening to suggestions from the community.</span><br><br><br></div>
 
   <!-- Contact -->
   <form class="w3-container w3-card-4" method="post" action="https://getform.io/f/0092bfe5-16f1-4c7c-a90b-910be9d525a5">
