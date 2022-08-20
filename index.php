@@ -117,11 +117,12 @@ $discord_tag = "vidk#0024";
     document.cookie = "cookieconsent_status=dismiss; expires=" + date;
   }
 
-  submit.addEventListener("click", function(){
+  submit.addEventListener("click", function(e){
     var captcha = document.querySelector(".g-recaptcha");
     var response = grecaptcha.getResponse();
 
     if (response.length === 0){
+      e.preventDefault();
       document.querySelector("#form-alert").textContent = "Please verify you're not a robot.";
     } else {
       console.log("reCaptcha validation success.")
