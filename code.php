@@ -2,7 +2,7 @@
 <?php
 $name = "Vali";
 $username = "ejvali";
-$desc = "This is my personal website and my corner on the internet. I'm mainly a student and a free-time developer.";
+$desc = "A library of free codes. Copy/Paste now.";
 $section = "Code";
 $prns = "they/it";
 $keywords = "art & photo";
