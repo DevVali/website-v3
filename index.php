@@ -93,7 +93,6 @@ $discord_tag = "vidk#0024";
   var dtag = document.querySelector("#dtag");
   var discord = "<?php echo $discord_tag ?>";
   var submit = document.querySelector("#submit");
-  var captchabox = document.querySelector(".g-recaptcha");
   let date = ""; //dev tool
 
   dtag.addEventListener("click", onDtag);
@@ -118,13 +117,16 @@ $discord_tag = "vidk#0024";
     document.cookie = "cookieconsent_status=dismiss; expires=" + date;
   }
 
-  submit.addEventListener("click", grecaptcha);
-  function grecaptcha(event){
-    if(grecaptcha.getResponse() === ''){
-      event.preventDefault();
-      document.querySelector("#form-alert").textContent = "Please confrim you're not a robot.";
+  submit.addEventListener("click", function(){
+    var captcha = document.querySelector(".g-recaptcha");
+    var response = grecaptcha.getResponse();
+
+    if (response.length === 0){
+      document.querySelector("#form-alert").textContent = "Please verify you're not a robot.";
+    } else {
+      console.log("reCaptcha validation success.")
     }
-  }
+  })
 
 </script>
 
