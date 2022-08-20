@@ -6,7 +6,7 @@ Get the source code of ejvali.eu
 
 ## Contact
 
-If any problem found during visiting through our site, please [contact me](https://ejvali.eu/#contact).
+If any problem found during visiting through the site, please [contact me](https://ejvali.eu/#contact).
 
 ## Community
 
