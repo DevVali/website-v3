@@ -23,6 +23,16 @@
 <!-- favicon -->
 <link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/889423777123938315/1008112502778892368/favicon-1.png">
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N1D9WX2HD0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-N1D9WX2HD0');
+</script>
+  
 <!-- reCAPTCHA -->
 <script src="https://www.google.com/recaptcha/api.js"></script>
 
