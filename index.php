@@ -13,7 +13,7 @@ $discord_tag = "vidk#0024";
 
 <html lang="en">
 
-<?php require "/home/runner/portfolio/includeto/pagehead.php" ?>
+<?php require "/home/runner/portfolio/ejvali-eu/pagehead.php" ?>
 
 </head>
 <body><div id="pageselect">
@@ -46,26 +46,26 @@ $discord_tag = "vidk#0024";
 
   <!-- Gallery -->
   <h2 id="gallery" style="color:red">Gallery</h2><p>A little gallery, of my favorite photos.<br><font color="#aaa">6 of 6 shown</font></p>
-  <img style="width:326px" src="https://cdn.discordapp.com/attachments/889423777123938315/1008625290639061002/1660545356699.jpg">
-  <img style="width:326px" src="https://cdn.discordapp.com/attachments/889423777123938315/1008625290135748639/1660545356683.jpg">
-  <img style="width:326px" src="https://cdn.discordapp.com/attachments/889423777123938315/1008625289808580668/1660545356666.jpg">
+  <img style="width:326px" src="https://cdn.discordapp.com/attachments/889423777123938315/1009890320860852224/unknown.png">
+  <img style="width:326px" src="https://cdn.discordapp.com/attachments/889423777123938315/1009890320462385172/unknown.png">
+  <img style="width:326px" src="https://cdn.discordapp.com/attachments/889423777123938315/1009890321401921706/unknown.png">
   <br><br>
-  <img style="width:326px" src="https://cdn.discordapp.com/attachments/889423777123938315/1008625289460457492/1660545356651.jpg">
-  <img style="width:326px" src="https://cdn.discordapp.com/attachments/889423777123938315/1008625289171042345/1660545356635.jpg">
-  <img style="width:326px" src="https://cdn.discordapp.com/attachments/889423777123938315/1008625288877453382/1660545356619.jpg">
+  <img style="width:326px" src="https://cdn.discordapp.com/attachments/889423777123938315/1009890321951371284/unknown.png">
+  <img style="width:326px" src="https://cdn.discordapp.com/attachments/889423777123938315/1009890322391765022/unknown.png">
+  <img style="width:326px" src="https://cdn.discordapp.com/attachments/889423777123938315/1009890322802810880/unknown.png">
   <br><br>
 
   <!-- Projects --> 
   <h2 id="projects" style="color:red">Projects</h2><p>Check out my developer and other based projects I made and contributed to.<br>Click the project icon to hop in to the project.<br><font color="#aaa">6 of 6 shown</font></p>
-  <div><a href="https://instagram.com/testtool_apps" target="_blank"><img src="https://cdn.discordapp.com/attachments/889423777123938315/1008781504752656434/testtool_apps.png" style="width:121px"></a><h3>TestTool<br><font color="#aaa" size="4px">Entertainment & Recreation</font></h3>
+  <div><a href="https://instagram.com/testtool_apps" target="_blank"><img src="https://cdn.discordapp.com/attachments/889423777123938315/1009892016441790544/unknown.png" style="width:121px"></a><h3>TestTool<br><font color="#aaa" size="4px">Entertainment & Recreation</font></h3>
   <span>🥇 #1 world exams app, powerful, easy & online. In demo.</span><br><br><br></div>
-  <div><a href="https://instagram.com/naturee_channel" target="_blank"><img src="https://cdn.discordapp.com/attachments/889423777123938315/1008781504199020585/naturee_channel.png" style="width:121px"></a><h3>Naturee Channel<br><font color="#aaa" size="4px">Blog</font></h3>
+  <div><a href="https://instagram.com/naturee_channel" target="_blank"><img src="https://cdn.discordapp.com/attachments/889423777123938315/1009892017293250570/unknown.png" style="width:121px"></a><h3>Naturee Channel<br><font color="#aaa" size="4px">Blog</font></h3>
   <span>🔎 Discover nature photos and their beauty. You can feature your photos FOR FREE.</span><br><br><br></div>
-  <div><a href="https://instagram.com/somethingnew.kira" target="_blank"><img src="https://cdn.discordapp.com/attachments/889423777123938315/1008781503167209543/somethingnew.kira.png" style="width:121px"></a><h3>Something New<br><font color="#aaa" size="4px">Fan page</font></h3>
+  <div><a href="https://instagram.com/somethingnew.kira" target="_blank"><img src="https://cdn.discordapp.com/attachments/889423777123938315/1009892016827678781/unknown.png" style="width:121px"></a><h3>Something New<br><font color="#aaa" size="4px">Fan page</font></h3>
   <span>A fan page made with love for <a href="https://kirakosarin.com">Kira Kosarin</a>.</span><br><br><br></div>
-  <div><a href="https://github.com/DevVali/Boostyle" target="_blank"><img src="https://cdn.discordapp.com/attachments/889423777123938315/1008781502730997780/boostyle.png" style="width:121px"></a><h3>Boostyle<br><font color="#aaa" size="4px">Entertainment & Recreation</font></h3>
+  <div><a href="https://github.com/DevVali/Boostyle" target="_blank"><img src="https://cdn.discordapp.com/attachments/889423777123938315/1009892015976226826/unknown.png" style="width:121px"></a><h3>Boostyle<br><font color="#aaa" size="4px">Entertainment & Recreation</font></h3>
   <span>Boostyle is a collection of CSS styles. No limitations, open source for everyone. Style webpages.</span><br><br><br></div>
-  <div><a href="https://dsc.gg/bytesstudios" target="_blank"><img src="https://cdn.discordapp.com/attachments/889423777123938315/1008781502361911397/bytes_studios.png" style="width:121px"></a><h3>Bytes Studios<br><font color="#aaa" size="4px">Entertainment & Recreation</font></h3>
+  <div><a href="https://dsc.gg/bytesstudios" target="_blank"><img src="https://cdn.discordapp.com/attachments/889423777123938315/1009892015581974589/unknown.png" style="width:121px"></a><h3>Bytes Studios<br><font color="#aaa" size="4px">Entertainment & Recreation</font></h3>
   <span>Bytes Studios is a group that creates different types of projects such as websites, bots, tools and more.</span><br><br><br></div>
 
   <!-- Contact -->
@@ -86,7 +86,7 @@ $discord_tag = "vidk#0024";
     <br><br>
   </form>
 
-<?php require "/home/runner/portfolio/includeto/pagefooter.php" ?>
+<?php require "/home/runner/portfolio/ejvali-eu/pagefooter.php" ?>
 
 <!-- script -->
 <script>

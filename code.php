@@ -24,7 +24,7 @@ if (isset($_GET["id"])){
 
 <html lang="en">
 
-<?php require "/home/runner/portfolio/includeto/pagehead.php" ?>
+<?php require "/home/runner/portfolio/includeto/ejvali-eu.php" ?>
 
 </head>
 <body><div id="pageselect">
@@ -42,7 +42,7 @@ if (isset($_GET["id"])){
   <button id="copybtn" class="btn btn-lg btn-primary">Copy code</button>
   <br><br>
 
-<?php require "/home/runner/portfolio/includeto/pagefooter.php" ?>
+<?php require "/home/runner/portfolio/includeto/ejvali-eu.php" ?>
 
 <!-- script -->
 <script>
