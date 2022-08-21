@@ -46,7 +46,7 @@ $discord_tag = "vidk#0024";
 
   <!-- Gallery -->
   <h2 id="gallery" style="color:red">Gallery</h2><p>A little gallery, of my favorite photos.<br><font color="#aaa">6 of 6 shown</font></p>
-  <img style="width:326px" ""src="https://cdn.discordapp.com/attachments/889423777123938315/1009890320860852224/unknown.png">
+  <img style="width:326px" src="https://cdn.discordapp.com/attachments/889423777123938315/1009890320860852224/unknown.png">
   <img style="width:326px" src="https://cdn.discordapp.com/attachments/889423777123938315/1009890320462385172/unknown.png">
   <img style="width:326px" src="https://cdn.discordapp.com/attachments/889423777123938315/1009890321401921706/unknown.png">
   <br><br>
