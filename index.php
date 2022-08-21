@@ -56,7 +56,7 @@ $discord_tag = "vidk#0024";
   <br><br>
 
   <!-- Projects --> 
-  <h2 id="projects" style="color:red">Projects</h2><p>Check out my developer and other based projects I made and contributed to.<br>Click the project icon to hop in to the project.<br><font color="#aaa">6 of 6 shown</font></p>
+  <h2 id="projects" style="color:red">Projects</h2><p>Check out my developer and other based projects I made and contributed to.<br>Click the project icon to hop in to the project.<br><font color="#aaa">5 of 5 shown</font></p>
   <div><a href="https://instagram.com/testtool_apps" target="_blank"><img src="https://cdn.discordapp.com/attachments/889423777123938315/1009892016441790544/unknown.png" style="width:121px"></a><h3>TestTool<br><font color="#aaa" size="4px">Entertainment & Recreation</font></h3>
   <span>#1 world exams app, powerful, easy & online. In demo.</span><br><br><br></div>
   <div><a href="https://instagram.com/naturee_channel" target="_blank"><img src="https://cdn.discordapp.com/attachments/889423777123938315/1009892017293250570/unknown.png" style="width:121px"></a><h3>Naturee Channel<br><font color="#aaa" size="4px">Blog</font></h3>
@@ -65,7 +65,7 @@ $discord_tag = "vidk#0024";
   <span>A fan page made with love for <a href="https://kirakosarin.com">Kira Kosarin</a>.</span><br><br><br></div>
   <div><a href="https://github.com/DevVali/Boostyle" target="_blank"><img src="https://cdn.discordapp.com/attachments/889423777123938315/1009892015976226826/unknown.png" style="width:121px"></a><h3>Boostyle<br><font color="#aaa" size="4px">Entertainment & Recreation</font></h3>
   <span>Boostyle is a collection of CSS styles. No limitations, open source for everyone. Style webpages.</span><br><br><br></div>
-  <div><a href="https://dsc.gg/bytesstudios" target="_blank"><img src="https://cdn.discordapp.com/attachments/889423777123938315/1009892015581974589/unknown.png" style="width:121px"></a><h3>Bytes Studios<br><font color="#aaa" size="4px">Entertainment & Recreation</font></h3>
+  <div><a href="https://dsc.gg/bytesstudios" target="_blank"><img src="https://cdn.discordapp.com/attachments/889423777123938315/1009892015581974589/unknown.png" style="width:121px"></a><h3>Bytes Community<br><font color="#aaa" size="4px">Entertainment & Recreation</font></h3>
   <span>Bytes Community is all about collaborating, sharing, conversation, and more!</span><br><br><br></div>
 
   <!-- Contact -->
