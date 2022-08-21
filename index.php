@@ -6,7 +6,7 @@ $section = "Home";
 $prns = "they/it";
 $keywords = "art & photo";
 $color = "#68ADAD";
-$discord = "https://dsc.gg/ejvali";
+$discord = "https://join.ejvali.eu/";
 $discord_tag = "vidk#0024";
 ?>
 <!DOCTYPE html>
