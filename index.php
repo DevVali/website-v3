@@ -41,7 +41,7 @@ $discord_tag = "vidk#0024";
   <!-- Bio -->
   <p id="bio">This is my personal website and my corner on the internet. I'm mainly a student and a free-time developer.<br>I'm a Frontend developer (HTML, CSS, JS), but I also code at PHP.<br>I love taking photos, as well. By one word, I'm an artist. I've also been playing the guitar for seven years.<br>You can check out my lil gallery below & support me by following on <a href="https://instagram.com/<?php echo $username ?>">Instagram</a>.<br>I love traveling, new places and horses and I mainly focus on food & nature photography.<br><br>I'm content creator on social media, such as Instagram, where I post my recent photos I've taken.<br>I manage over 5 social media accounts, including Twitter, Instgram & TikTok accounts.<br>I'm volunteer discord moderator & discord community manager.</p>
   <button id="dtag" class="btn btn-lg btn-primary">Copy discord tag</button>&nbsp;
-  <a href="<?php echo $ discord ?>"><button class="btn btn-lg btn-primary">Discord</button></a>&nbsp;
+  <a href="<?php echo $discord ?>"><button class="btn btn-lg btn-primary">Discord</button></a>&nbsp;
   <a href="#" class="btn btn-light btn-lg">Social Media</a><br>&nbsp;
 
   <!-- Gallery -->
