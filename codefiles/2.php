@@ -1,4 +1,4 @@
-$c[BDFD VALENTINE CARD BY VIDK#0024]
+$c[BDFD VALENTINE CARD BY VIDK#0001]
 $C[Language: BDscript 2]
 $c[VARIABLES NEEDED:
 -------------------------------

@@ -1,4 +1,4 @@
-// KONAMI CODE EASTER EGG BY VIDK#0024
+// KONAMI CODE EASTER EGG BY VIDK#0001
 // Language: JavaScript; YouTube: https://youtu.be/6dsKkeUeRPY
 // © 2022 Vali (@ejvali)
 

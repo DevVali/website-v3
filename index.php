@@ -7,7 +7,7 @@ $prns = "they/it";
 $keywords = "art & photo";
 $color = "#68ADAD";
 $discord = "https://join.ejvali.eu/";
-$discord_tag = "vidk#0024";
+$discord_tag = "vidk#0001";
 ?>
 <!DOCTYPE html>
 
