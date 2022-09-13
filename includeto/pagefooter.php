@@ -9,7 +9,7 @@
       document.querySelector("#visits").textContent = response.value;
     }
   </script>
-  <p>© 2022 Vali (@ejvali)</p>
+  <p>Contact: <a href="mailto:ejvali@ejvali.eu">ejvali@ejvali.eu</a></br>© 2022 Vali (@ejvali)</p>
 </footer>
   
 <?php if (isset($_COOKIE["cookieconsent_status"]) == false) { ?>
