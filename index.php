@@ -4,7 +4,7 @@ $username = "ejvali";
 $desc = "This is my personal website and my corner on the internet. I'm mainly a student and a free-time developer.";
 $section = "Home";
 $prns = "they/it";
-$keywords = "art & photo";
+$keywords = "📸 Photo ✨ Tourism";
 $color = "#68ADAD";
 $discord = "https://join.ejvali.eu/";
 $discord_tag = "vidk#0001";
@@ -32,6 +32,7 @@ $discord_tag = "vidk#0001";
   <a href="https://www.tiktok.com/<?php echo "@$username" ?>" style="font-size:30px"><i class="fa-brands fa-tiktok"></i></a>&nbsp;&nbsp;&nbsp;
   <a href="https://www.instagram.com/<?php echo $username ?>" style="font-size:30px"><i class="fa-brands fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;
   <a href="https://www.twitter.com/<?php echo $username ?>" style="font-size:30px"><i class="fa-brands fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/channel/UC-0Sew1gcgKsuF74S10tCAA" style="font-size:30px"><i class="fa-brands fa-youtube"></i></a>&nbsp;&nbsp;&nbsp;
   <br><hr style="border:3px solid <?php echo $color ?>">
   
   <!-- Home -->
@@ -56,17 +57,15 @@ $discord_tag = "vidk#0001";
   <br><br>
 
   <!-- Projects --> 
-  <h2 id="projects" style="color:red">Projects</h2><p>Check out my developer and other based projects I made and contributed to.<br>Click the project icon to learn more about the project.<br><font color="#aaa">5 of 5 shown</font></p>
+  <h2 id="projects" style="color:red">Projects</h2><p>Check out my developer and other based projects I made and contributed to.<br>Click the project icon to learn more about the project.<br><font color="#aaa">4 of 4 shown</font></p>
   <div><a href="https://testtool.ejvali.eu" target="_blank"><img src="https://cdn.discordapp.com/attachments/889423777123938315/1021488624757391370/new.png" style="width:121px"></a><h3>TestTool<br><font color="#aaa" size="4px">Product/Service</font></h3>
-  <span>#1 world exams app, powerful, easy & online.</span><br><br><br></div>
+  <span>No more stress, no more anxiety, no more writing. The Future of STUDYING.</span><br><br><br></div>
   <div><a href="https://instagram.com/naturee_channel" target="_blank"><img src="https://cdn.discordapp.com/attachments/889423777123938315/1009892017293250570/unknown.png" style="width:121px"></a><h3>Naturee Channel<br><font color="#aaa" size="4px">Blog</font></h3>
   <span>Discover nature photos and their beauty. You can feature your artworks without paying anything.</span><br><br><br></div>
   <div><a href="https://instagram.com/somethingnew.kira" target="_blank"><img src="https://cdn.discordapp.com/attachments/889423777123938315/1009892016827678781/unknown.png" style="width:121px"></a><h3>Something New<br><font color="#aaa" size="4px">Fan page</font></h3>
   <span>A fan page made with love for <a href="https://kirakosarin.com">Kira Kosarin</a>.</span><br><br><br></div>
   <div><a href="https://github.com/DevVali/Boostyle" target="_blank"><img src="https://cdn.discordapp.com/attachments/889423777123938315/1009892015976226826/unknown.png" style="width:121px"></a><h3>Boostyle<br><font color="#aaa" size="4px">Entertainment & Recreation</font></h3>
   <span>Boostyle is a collection of CSS styles. No limitations, open source for everyone. Style webpages.</span><br><br><br></div>
-  <div><a href="https://dsc.gg/bytesstudios" target="_blank"><img src="https://cdn.discordapp.com/attachments/889423777123938315/1009892015581974589/unknown.png" style="width:121px"></a><h3>Bytes Community<br><font color="#aaa" size="4px">Community</font></h3>
-  <span>Bytes Community is all about collaborating, sharing, conversation, and more!</span><br><br><br></div>
 
   <!-- Contact -->
   <form class="w3-container w3-card-4" method="post" action="https://getform.io/f/0092bfe5-16f1-4c7c-a90b-910be9d525a5">
