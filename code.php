@@ -1,5 +1,5 @@
 <?php
-$id = "";
+$id;
 if (isset($_GET["id"])){
   if ($_GET["id"] == 1 || $_GET["id"] == 2 || $_GET["id"] == 3 || $_GET["id"] == 4 || $_GET["id"] == 5 || $_GET["id"] == 6 || $_GET["id"] == 7 || $_GET["id"] == 8 || $_GET["id"] == 9 || $_GET["id"] == 10 || $_GET["id"] == 11 || $_GET["id"] == 12){
     $id = $_GET["id"];
