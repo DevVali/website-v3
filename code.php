@@ -34,7 +34,7 @@ $discord_tag = "vidk#0001";
   <style>html{text-align:center;scroll-behavior:smooth;margin:0;}.cookie{list-style-type:none;font-family:Montserrat;font-size:18px;color:white;background-color:#68ADAD;overflow:hidden;margin:0;padding:0;position:sticky;bottom:0;width:100%;}.codearea{padding: 5px;margin-bottom: 10px;color: #aaa;box-sizing: border-box;border: 1px solid #8b8b8b;border-radius: 5px;background-color: #424242;font-size: 16px;resize: none;}footer{list-style-type:none;font-family:Montserrat;font-size:18px;color:white;background-color:#68ADAD;overflow:hidden;margin:0;padding:0;}@media screen and (max-width: 600px){.nav-bar {display:none}}</style>
 
   <br><br><h1>A <font color="<?php echo $color ?>">library</font> of <font color="<?php echo $color ?>">free codes</font>. Copy/Paste now.</h1>
-  <p><a href="#copybtn">Copy/Paste</a> the code, follow the intructions (usually written in the comments) and enjoy.<br>Having issues? Let us know on our Discord.</p><a href="https://dsc-gg/dev-world" target="_blank"><button class="btn btn-lg btn-primary">Discord support</button></a><br><br>
+  <p><a href="#copybtn">Copy/Paste</a> the code, follow the intructions (usually written in the comments) and enjoy.<br>Having issues? Let us know on our Discord.</p><a href="https://dsc.gg/dev-world" target="_blank"><button class="btn btn-lg btn-primary">Discord support</button></a><br><br>
   
   <pre><textarea cols="80" rows="30" class="codearea" readonly>
 <?php require "/home/runner/ejvali-eu/codefiles/$id.php" ?>
