@@ -31,6 +31,7 @@ $discord_tag = "vidk#0001";
   <a href="https://linkin.bio/ejvali"><img src="https://cdn.discordapp.com/attachments/889423777123938315/1031262315959566386/ejvali-photographer.png" width="100px" alt="logo"></a><h3><?php echo "@$username" ?></h3>
   <a href="https://www.tiktok.com/<?php echo "@$username" ?>" style="font-size:30px"><i class="fa-brands fa-tiktok"></i></a>&nbsp;&nbsp;&nbsp;
   <a href="https://www.instagram.com/<?php echo $username ?>" style="font-size:30px"><i class="fa-brands fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;
+  <a href="https://pin.it/4bqKJiR" style="font-size:30px"><i class="fa-brands fa-pinterest"></i></a>&nbsp;&nbsp;&nbsp;
   <br><hr style="border:3px solid <?php echo $color ?>">
   
   <!-- Home -->
@@ -45,13 +46,13 @@ $discord_tag = "vidk#0001";
 
   <!-- Gallery -->
   <h2 id="gallery" style="color:red">Gallery</h2><p>A little gallery, to show my work.<br><font color="#aaa">6 of 6 shown</font></p>
-  <img style="width:326px" src="https://cdn.discordapp.com/attachments/889423777123938315/1018875413499494430/unknown.png">
-  <img style="width:326px" src="https://cdn.discordapp.com/attachments/889423777123938315/1018875413763719249/unknown.png">
-  <img style="width:326px" src="https://cdn.discordapp.com/attachments/889423777123938315/1018875414078312520/unknown.png">
+  <a href="https://pin.it/4bqKJiR"><img style="width:326px" src="https://cdn.discordapp.com/attachments/889423777123938315/1018875413499494430/unknown.png"></a>
+  <a href="https://pin.it/4bqKJiR"><img style="width:326px" src="https://cdn.discordapp.com/attachments/889423777123938315/1018875413763719249/unknown.png"></a>
+  <a href="https://pin.it/4bqKJiR"><img style="width:326px" src="https://cdn.discordapp.com/attachments/889423777123938315/1018875414078312520/unknown.png"></a>
   <br><br>
-  <img style="width:326px" src="https://cdn.discordapp.com/attachments/889423777123938315/1018875414627762176/unknown.png">
-  <img style="width:326px" src="https://cdn.discordapp.com/attachments/889423777123938315/1018875414984269874/unknown.png">
-  <img style="width:326px" src="https://cdn.discordapp.com/attachments/889423777123938315/1018875415286263818/unknown.png">
+  <a href="https://pin.it/4bqKJiR"><img style="width:326px" src="https://cdn.discordapp.com/attachments/889423777123938315/1018875414627762176/unknown.png"></a>
+  <a href="https://pin.it/4bqKJiR"><img style="width:326px" src="https://cdn.discordapp.com/attachments/889423777123938315/1018875414984269874/unknown.png"></a>
+  <a href="https://pin.it/4bqKJiR"><img style="width:326px" src="https://cdn.discordapp.com/attachments/889423777123938315/1018875415286263818/unknown.png"></a>
   <br><br>
 
   <!-- Projects --> 
