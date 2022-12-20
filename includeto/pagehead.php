@@ -1,21 +1,21 @@
 <head><title><?php echo $section ?> - <?php echo "@$username" ?></title>
 <!-- meta tags -->
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta property="og:type" content="website" />
-<meta name="theme-color" content="<?php echo $color ?>" />
-<meta property="og:site_name" content="Official Site" />
-<meta property="og:title" content="<?php echo $section ?> - <?php echo $name ?> (@<?php echo $username ?>)" />
-<meta property="og:description" content="<?php echo $desc ?>" />
-<meta property="og:url" content="https://ejvali.eu" />
-<meta property="og:image:type" content="image/png" />
-<meta property="twitter:card" content="summary_large_image" />
-<meta name="description" content="<?php echo $desc ?>" />
-<meta name="keywords" content="Vali, TestTool, Naturee Channel, Boostyle, Bytes Studios, Night Developers, Discord, TikTok, Instagram, Twitter, Pinterest, HTML, CSS, JS, PHP, PY, Python, ejvali, art, artist, photo, photographer, tourism, travel, food, nature, programmer, developer, code, manager, creator, social media " />
-<meta name="author" content="<?php echo $name ?> (@<?php echo $username ?>)" />
-<meta name="copyright" content="© 2022 <?php echo $name ?> (@<?php echo $username ?>)" />
+<meta property="og:type" content="website">
+<meta name="theme-color" content="<?php echo $color ?>">
+<meta property="og:site_name" content="Official Site">
+<meta property="og:title" content="<?php echo $section ?> - <?php echo $name ?> (@<?php echo $username ?>)">
+<meta property="og:description" content="<?php echo $desc ?>">
+<meta property="og:url" content="https://ejvali.eu">
+<meta property="og:image:type" content="image/png">
+<meta property="twitter:card" content="summary_large_image">
+<meta name="description" content="<?php echo $desc ?>">
+<meta name="author" content="<?php echo $name ?> (@<?php echo $username ?>)">
+<meta name="copyright" content="© 2022 <?php echo $name ?> (@<?php echo $username ?>)">
 
 <!-- import styles and scripts -->
-<link rel="stylesheet" href="/boostyle/1.0.8/css/boostyle.css">
+<link rel="stylesheet" href="/boostyle/1.0.9/css/boostyle.css">
 <link rel="stylesheet" href="/bootstrap/5.2.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="/w3css/4/css/w3.css">
 <script src="https://kit.fontawesome.com/ede9707ca2.js" crossorigin="anonymous"></script>
